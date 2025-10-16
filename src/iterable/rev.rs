@@ -4,7 +4,7 @@ use crate::iter::Rev;
 /// Stream that goes over an `[ExactSizeIterator]` in reverse order.
 ///
 /// This stream allows to switch fast from little endian ordering used in
-/// time-efficient algorithms, e.g. in slices `&[T]` into big endia ordering
+/// time-efficient algorithms, e.g. in slices `&[T]` into big endian ordering
 /// (used in space-efficient algorithms.
 ///
 /// # Examples
